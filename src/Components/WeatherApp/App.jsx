@@ -2,7 +2,7 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import cloudy from "../Assets/cloudy-logo.png";
 import sunny from "../Assets/sunny-logo.png";
-import myVideo from "../Assets/myVideo.mp4";
+import partlyCloudy from "../Assets/PartlyCloudy.mov";
 
 function WeatherApp() {
   const [weather, setWeather] = useState([]);
@@ -25,7 +25,7 @@ function WeatherApp() {
   return (
     <div className="weatherApp">
       <video className="bgVideo" autoPlay loop muted>
-        <source src={myVideo} />
+        <source src={partlyCloudy} />
       </video>
 
       <div className="innerCont">
