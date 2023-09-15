@@ -2,7 +2,7 @@ import "./App.css";
 import "./ResponsiveApp.css";
 import { useEffect, useState } from "react";
 import setBgImageDependOnWeatherMode from "./ChangeBg.js";
-import setWeatherIconDependOnWeatherMode from "./ChangeIcon";
+import setWeatherIconDependOnWeatherMode from "./ChangeIcon.js";
 
 // Import Weather Info Icons
 import { FaDroplet } from "react-icons/fa6";
